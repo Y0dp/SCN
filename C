@@ -97,14 +97,10 @@ local ScreenGui = Create("ScreenGui", CoreGui, {
   Name = "REDz HUB library"
 })
 
+
 ScreenGui.MouseButton1Click:Connect(function()
     sound:Play()
 end)
-
-ScreenFind = CoreGui:FindFirstChild(ScreenGui.Name)
-if ScreenFind and ScreenFind ~= ScreenGui then
-  ScreenFind:Destroy()
-end
 
 function DestroyScript()
   ScreenGui:Destroy()
