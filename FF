@@ -385,7 +385,7 @@ Stroke(Menu)
 
 local Credit = Create("TextLabel", TopBar, {
     Size = UDim2.new(0, 100, 1, 0),
-    Position = UDim2.new(0, 79, 0, 0),
+    Position = UDim2.new(0, 86, 0, 0),
     TextColor3 = Color3.fromRGB(200, 200, 200),
     Font = Configs_HUB.Text_Font,
     TextXAlignment = "Left",
@@ -1732,15 +1732,15 @@ end
     })Corner(Frame)
     
     local TextButton = Create("TextButton", Frame, {
-      TextSize = 14,
-      TextColor3 = Configs_HUB.Cor_DarkText,
-      Text = SectionName,
-      Size = UDim2.new(1, 0, 0, 25),
-      Position = UDim2.new(0, 10, 0, 0),
-      BackgroundTransparency = 1,
-      TextXAlignment = "Left",
-      Font = Configs_HUB.Text_Font
-    })
+  TextSize = 20,
+  TextColor3 = Configs_HUB.Cor_DarkText,
+  Text = SectionName,
+  Size = UDim2.new(1, 0, 0, 50),
+  Position = UDim2.new(0, 10, 0, 0),
+  BackgroundTransparency = 1,
+  TextXAlignment = "Left",
+  Font = Configs_HUB.Text_Font
+})
     return TextButton
   end
   
