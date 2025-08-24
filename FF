@@ -385,7 +385,7 @@ Stroke(Menu)
 
 local Credit = Create("TextLabel", TopBar, {
     Size = UDim2.new(0, 100, 1, 0),
-    Position = UDim2.new(0, 86, 0, 0),
+    Position = UDim2.new(0, 97, 0, 0),
     TextColor3 = Color3.fromRGB(200, 200, 200),
     Font = Configs_HUB.Text_Font,
     TextXAlignment = "Left",
