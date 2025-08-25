@@ -45,7 +45,7 @@ local function Stroke(parent, props)
   local new = Create("UIStroke", parent)
   new.Color = Configs_HUB.Cor_Stroke
   new.ApplyStrokeMode = "Border"
-  new.Thickness = 3
+  new.Thickness = 2
   
   local gradient = Instance.new("UIGradient")
  gradient.Color = ColorSequence.new{
